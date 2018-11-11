@@ -1,0 +1,43 @@
+body{
+	font-family: "微软雅黑";
+	color: #9d9d9d;
+	font-size: 14px;
+	background: #fff;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+ul,
+ol {
+	padding: 0;
+}
+
+strong {
+	font-weight: normal;
+}
+
+em {
+	font-style: normal;
+}
+
+a {
+	/*text-decoration: none;*/
+	color: #666;
+}
+i{
+	font-style: normal;
+}
