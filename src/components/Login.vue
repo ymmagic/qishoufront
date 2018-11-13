@@ -46,7 +46,7 @@ export default {
         let json = (await this.axios.get(`/users/${this.proc}/${this.username}/${this.password}/`)).data;
 		storage.set('userid',json[0].USERID);
         if (json[0].DATA==="1") {
-		  let pushurl=`http://www.cqjnh.com.cn:8090/api/sendgps/y_qishou.savegps/${json[0].USERID}`;
+		
           //window.sysjs.startPushGPS(pushurl)  ;
 		      //window.sysjs.startPushMessage("http://www.cqjnh.com.cn:8090/api/ontimebooking/y_qishou.ontimebooking","新消息提醒","有抢单拉!!!");
           this.$store.dispatch('updateUser', json[0].USERID);
